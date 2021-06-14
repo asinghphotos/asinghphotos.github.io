@@ -189,9 +189,9 @@ if (typeof window.theme === 'undefined') {
 		animations: {
 			triggerHook: 0.85, // more info https://scrollmagic.io/docs/ScrollMagic.Scene.html#triggerHook
 			timeScale: {
-				onScrollReveal: 2, // on-scroll animations global speed
-				overlayMenuOpen: 2, // fullscreen menu open speed
-				overlayMenuClose: 2, // fullscreen menu close speed
+				onScrollReveal: 1.75, // on-scroll animations global speed
+				overlayMenuOpen: 1.75, // fullscreen menu open speed
+				overlayMenuClose: 1.75, // fullscreen menu close speed
 			}
 		},
 		cursorFollower: {
