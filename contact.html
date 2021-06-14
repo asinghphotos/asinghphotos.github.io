@@ -272,125 +272,325 @@
               </div>
       
       </header>
+      <!-- PAGE HEADER -->
+      <header class="header header_menu-right header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="light" data-arts-header-sticky-theme="bg-dark-2" data-arts-header-logo="secondary" data-arts-header-sticky-logo="secondary" data-arts-header-overlay-theme="dark" data-arts-header-overlay-background="#000">
+        <!-- top bar -->
+        <div class="header__container header__controls">
+          <div class="row justify-content-between align-items-center">
+            <!-- logo -->
+            <div class="col-auto header__col header__col-left"><a class="logo" href="index.html" target="_blank">
+                <div class="logo__wrapper-img">
+                  <!-- primary logo version (for light backgrounds)--><img class="logo__img-primary" src="img/general/logo-black.svg" alt="Rhye HTML5 Template" height="20"/>
+                  <!-- secondary logo version (for dark backgrounds)--><img class="logo__img-secondary" src="img/general/logo-white.svg" alt="Rhye HTML5 Template" height="20"/>
+                </div></a>
+            </div>
+          <!-- - logo -->
+            <!-- burger icon -->
+            <div class="col-auto header__col">
+              <div class="header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+              </div>
+            </div>
+            <!-- - burger icon -->
+            <!-- "back" button for submenu nav -->
+            <div class="header__overlay-menu-back" id="js-submenu-back">
+              <div class="arrow arrow-left js-arrow arrow_mini" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
+                <svg class="svg-circle" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <circle class="circle" cx="30" cy="30" r="29" fill="none"></circle>
+                </svg>
+                <div class="arrow__pointer arrow-left__pointer"></div>
+                <div class="arrow__triangle"></div>
+              </div>
+            </div>
+            <!-- - "back" button for submenu nav -->
+          </div>
+        </div>
+        <!-- - top bar -->
+        <!-- fullscreen overlay container -->
+        <div class="header__wrapper-overlay-menu container-fluid container-fluid_paddings">
+          <!-- fullscreen menu -->
+          <div class="header__wrapper-menu">
+            <ul class="menu-overlay js-menu-overlay">
+              <li class="menu-item-has-children"><a class="h2" href="index.html" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Home</div></a>
+              </li>
+                 
+              <li class="menu-item-has-children"><a class="h2" href="#" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Works</div></a>
+              <ul class="sub-menu">
+                <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">People</div></a>
+                  <ul class="sub-menu">
+                    <li><a class="h3" href="backyardpeople.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Backyard Shenanigans</div></a>
+                    </li>
+                    <li><a class="h3" href="fathersday.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Father's Day 2020</div></a>
+                    </li>
+                    <li><a class="h3" href="downtownsaratogapeople.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Downtown Saratoga</div></a>
+                    </li>
+                  </ul>
+                </li>
+                  <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Places</div></a>
+                  <ul class="sub-menu">
+                    <li><a class="h3" href="ranchonature.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Rancho San Antonio</div></a>
+                    </li>
+                    <li><a class="h3" href="davenportnature.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Davenport</div></a>
+                    </li>
+                    <li><a class="h3" href="stevenscreekpark.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Stevens Creek County Park</div></a>
+                    </li>
+                    <li><a class="h3" href="skyline.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Skyline Blvd</div></a>
+                    </li>
+                  </ul>
+                  </li>
+                  <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Things</div></a>
+                  <ul class="sub-menu">
+                    <li><a class="h3" href="ranchoanimals.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Rancho San Antonio</div></a>
+                    </li>
+                    <li><a class="h3" href="downtownsaratoganature.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Downtown Saratoga</div></a>
+                    </li>
+                    <li><a class="h3" href="oracleparkway.html" data-pjax-link="overlayMenu">
+                      <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Oracle Parkway</div></a>
+                  </li>
+                  </ul>
+                  </li>
+                  <li class="menu-item-has-children"><a class="h3" href="#" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Space</div></a>
+                  <ul class="sub-menu">
+                    <li><a class="h3" href="backyardspace.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">My Backyard</div></a>
+                    </li>
+                    <li><a class="h3" href="davenportspace.html" data-pjax-link="overlayMenu">
+                        <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Davenport</div></a>
+                    </li>
+                  </ul>
+                  </li>
+                </li>
+              </ul>
+            </li>
+                  <li class="menu-item-has-children"><a class="h2" href="#" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Pages</div></a>
+                <ul class="sub-menu">    
+                    <li><a class="h3" href="about.html" data-pjax-link="overlayMenu">
+                      <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">About</div></a>
+                  </li>
+                    <li><a class="h3" href="services.html" data-pjax-link="overlayMenu">
+                      <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Services</div></a>
+                  </li>
+              
+                <li><a class="h3" href="contact.html" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">Contact</div></a>
+              </li>
+                      </ul>
+            
+          </div>
+          <!-- - fullscreen menu -->
+          <!-- fullscreen widgets -->
+          <div class="header__wrapper-overlay-widgets">
+            <div class="row">
+              <!-- widget TEXT -->
+              <div class="col-lg-5 header__widget">
+                <div class="header__widget-title small-caps js-split-text split-text" data-split-text-type="lines">Contacts</div>
+                <div class="header__widget-content js-split-text split-text" data-split-text-type="lines">
+                  <p>amansinghphotos@gmail.com
+                  </p>
+                </div>
+              </div>
+      
+      </header>
       <!-- - PAGE HEADER -->
       <!-- PAGE MAIN -->
-      <div class="js-smooth-scroll bg-light-1" id="page-wrapper" data-barba="container">
+      <div class="js-smooth-scroll bg-dark-1" id="page-wrapper" data-barba="container" data-arts-theme-text="light">
         <main class="page-wrapper__content">
-          <!-- section CONTACTS 3 COLUMNS -->
-          <section class="section section-fullheight">
-            <div class="section-fullheight__inner">
-              <div class="container-fluid no-gutters h-100">
-                <div class="row no-gutters h-100">
-                  <!-- section IMAGE -->
-                  <div class="col-lg-4 order-lg-2">
-                    <section class="section section-masthead" data-arts-os-animation="true" data-background-color="var(--color-light-1)">
-                      <div class="section section-image section-masthead__background w-100 h-100vh">
-                        <div class="section-image__wrapper js-transition-img" data-arts-parallax data-arts-parallax-factor="0.15">
-                          <div class="js-transition-img__transformed-el">
-                            <div class="lazy-bg" data-src="img/assets/sectionContacts/img-1.jpg"></div>
+          <!-- section MASTHEAD -->
+          <section class="section section-masthead d-none" data-background-color="var(--color-dark-1)"></section>
+          <!-- - section MASTHEAD -->
+          <!-- section GRID PROJECTS 2 COLUMNS -->
+          <section class="section section-grid section-content overflow bg-dark-1 pt-large pb-medium" data-arts-os-animation="data-arts-os-animation" data-grid-columns="2" data-grid-tablet="2" data-grid-mobile="1" data-arts-theme-text="dark">
+            <div class="container-fluid">
+              <div class="row justify-content-between align-items-center section pb-medium">
+                <div class="col-12 col-lg-auto">
+                  <div class="section-grid__heading split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
+                    <h1 class="h1 mt-0 mb-0">Coming Soon</h1>
+                  </div>
+                
+                </div>
+                
+              </div>
+              <!-- <div class="grid grid_fluid-4 js-grid">
+                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 grid__sizer js-grid__sizer"></div>
+                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-portraits">
+                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="backyard.html">
+                      <div class="hover-zoom__inner">
+                        <div class="hover-zoom__zoom">
+                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                            <div class="lazy"><img data-src="img/assets/projects/EOS R_0242.jpg" src="#" alt="" width="1024" height="1024"/></div>
                           </div>
                         </div>
-                      </div>
+                        <div class="figure-project__wrapper-content">
+                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Portraits</span></div>
+                          <div class="figure-project__content figure-project__content_absolute">
+                            <h2 class="h3 figure-project__heading">Backyard Shenanigans</h2>
+                          </div>
+                        </div>
+                        <div class="figure-project__overlay overlay overlay_dark"></div>
+                      </div></a>
+                  </div>
+                </div>
+                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-portraits">
+                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="fathersday.html">
+                      <div class="hover-zoom__inner">
+                        <div class="hover-zoom__zoom">
+                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                            <div class="lazy"><img data-src="img/assets/projects/EOS R_0725.jpg" src="#" alt="" width="1024" height="1024"/></div>
+                          </div>
+                        </div>
+                        <div class="figure-project__wrapper-content">
+                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Portraits</span></div>
+                          <div class="figure-project__content figure-project__content_absolute">
+                            <h2 class="h3 figure-project__heading">Father's Day 2020</h2>
+                          </div>
+                        </div>
+                        <div class="figure-project__overlay overlay overlay_dark"></div>
+                      </div></a>
+                  </div>
+                </div>
+                <div class="grid__item grid__item_desktop-6 grid__item_tablet-6 grid__item_mobile-12 grid__item_fluid-4 js-grid__item category-streetphotography">
+                  <div class="section-grid__item"><a class="hover-zoom figure-project figure-project_hover-inner" href="downtownsaratoga.html">
+                      <div class="hover-zoom__inner">
+                        <div class="hover-zoom__zoom">
+                          <div class="figure-project__wrapper-img" data-arts-parallax="data-arts-parallax" data-arts-parallax-factor="0.15">
+                            <div class="lazy"><img data-src="img/assets/projects/EOS R-0080.jpg" src="#" alt="" width="1024" height="1024"/></div>
+                          </div>
+                        </div>
+                        <div class="figure-project__wrapper-content">
+                          <div class="figure-project__category figure-project__category_absolute"><span class="small-caps">Street Photography</span></div>
+                          <div class="figure-project__content figure-project__content_absolute">
+                            <h2 class="h3 figure-project__heading">Downtown Saratoga</h2>
+                          </div>
+                        </div>
+                        <div class="figure-project__overlay overlay overlay_dark"></div>
+                      </div></a>
+                  </div>
+                </div>
+          </section> -->
+          <!-- - section GRID PROJECTS 2 COLUMNS -->
+        </main>
+        <!-- PAGE FOOTER -->
+        <footer class="footer container-fluid" id="page-footer" data-arts-theme-text="light" data-arts-footer-logo="secondary">
+          <!-- widgets top area -->
+          <div class="footer__area pt-md-5 pt-sm-3 pb-md-3 pb-sm-1 pt-2 pb-0 footer__area-border-top">
+            <div class="row">
+              <!-- call to action -->
+              <div class="col-lg-5">
+                <section class="widget widget_rhye_cta">
+                  <!-- header -->
+                  <h2 class="h2 mt-0 mb-0-5">Be Yourself.</h2>
+                  <!-- - header -->
+                  
+                </section>
+              </div>
+              <!-- - call to action -->
+              
+              <div class="col-lg-7">
+                <div class="row justify-content-lg-between">
+                  <!-- widget MENU #1 -->
+                  <div class="col-lg-3 col-sm-6 col-12">
+                    <section class="widget widget_nav_menu">
+                      <!-- header -->
+                      <h2 class="widgettitle">2021' Works</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul class="menu js-menu">
+                        <li><a href="downtownsaratoga.html">Downtown Saratoga</a>
+                        </li>
+                        
+                      </ul>
+                      <!-- - content -->
                     </section>
                   </div>
-                  <!-- - section IMAGE -->
-                  <!-- section CONTACTS -->
-                  <div class="col-lg-4 text-lg-right order-lg-1">
-                    <div class="h-100 d-flex justify-content-end flex-column py-md-3 py-1 container-fluid">
-                      <section class="section section-contacts section-properties section-content" data-arts-os-animation="data-arts-os-animation">
-                        <div class="container-fluid no-gutters">
-                          <div class="row no-gutters">
-                            <div class="col">
-                              <div class="section-properties__item my-2">
-                                <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                                  <div class="figure-info__option small-caps">Studio</div>
-                                  <div class="figure-info__value paragraph">4903 Mayo Street<br>Cincinnati, KY 45202<br>USA</div>
-                                </div>
-                              </div>
-                              <div class="section-properties__item my-2">
-                                <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                                  <div class="figure-info__option small-caps">Want to Talk?</div>
-                                  <div class="figure-info__value paragraph"><a href="mailto:rhye@example.com">rhye@example.com</a><br>+1 859-795-9217<br>+1 716-913-6279</div>
-                                </div>
-                              </div>
-                              <div class="section-properties__item my-2">
-                                <div class="figure-info split-text js-split-text" data-split-text-type="lines,words" data-split-text-set="words">
-                                  <div class="figure-info__option small-caps">Social Media</div>
-                                  <ul class="social">
-                                    <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
-                                    <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
-                                    <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
-                                    <li class="social__item"><a class="fa fa-behance" href="#"></a></li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
+                  <!-- - widget MENU #1 -->
+                  <!-- widget MENU #2 -->
+                  <div class="col-lg-3 col-sm-6 col-12">
+                    <section class="widget widget_nav_menu">
+                      <!-- header -->
+                      <h2 class="widgettitle">2020' Works</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul class="menu js-menu">
+                        <li><a href="backyardshenanigans.html">Backyard Shenanigans</a>
+                        </li>
+                        <li><a href="fathersday.html">Father's Day 2020</a>
+                        </li>
+                        <li><a href="oracleparkway.html">Oracle Parkway</a>
+                        </li>
+                        <li><a href="davenport.html">Davenport</a>
+                        </li>
+                        <li><a href="cars.html">Cars</a>
+                        </li>
+                       
+                      </ul>
+                      <!-- - content -->
+                    </section>
                   </div>
-                  <!-- - section CONTACTS -->
-                  <!-- section FORM -->
-                  <div class="col-lg-4 order-lg-3">
-                    <div class="bg-white h-100 d-flex flex-column justify-content-center py-3 container-fluid">
-                      <section class="section section-form">
-                        <form class="form form-contact js-ajax-form bg-white" action="mail.php" method="POST" data-message-success="Thanks for your message! We will reply you as soon as possible." data-message-error="Something went wrong :( Please contact me directly at &lt;a href=&quot;rhye@example.com&quot;&gt;rhye@example.com&lt;/a&gt;">
-                          <!-- header -->
-                          <div class="row form__row">
-                            <div class="col form__col">
-                              <h3 class="h3 mt-0 mb-0">Send Message</h3>
-                            </div>
-                          </div>
-                          <!-- - header -->
-                          <!-- input #1 -->
-                          <div class="row form__row">
-                            <div class="col form__col">
-                              <label class="input-float js-input-float">
-                                <input class="input-float__input" type="text" name="visitor_name" required="required" data-msg="Please enter your name"/><span class="input-float__label">Your Name</span><span class="form__error"></span>
-                              </label>
-                            </div>
-                          </div>
-                          <!-- - input #1 -->
-                          <!-- input #2 -->
-                          <div class="row form__row">
-                            <div class="col form__col">
-                              <label class="input-float js-input-float">
-                                <input class="input-float__input" type="email" name="visitor_email" required="required" data-msg="Please enter a correct e-mail"/><span class="input-float__label">Your E-mail</span><span class="form__error"></span>
-                              </label>
-                            </div>
-                          </div>
-                          <!-- - input #2 -->
-                          <!-- input #3 -->
-                          <div class="row form__row">
-                            <div class="col form__col">
-                              <label class="input-float js-input-float">
-                                <textarea class="input-float__input input-float__input_textarea" name="visitor_msg"></textarea><span class="input-float__label">Your Message</span><span class="form__error"></span>
-                              </label>
-                            </div>
-                          </div>
-                          <!-- - input #3 -->
-                          <!-- submit -->
-                          <div class="row form__row">
-                            <div class="col form__col form__col_submit">
-                              <button class="button button_solid button_black button_fullwidth" data-hover="Send Message"><span class="button__label-hover">Send Message</span></button>
-                            </div>
-                          </div>
-                          <!-- - submit -->
-                        </form>
-                      </section>
-                    </div>
+                  <!-- - widget MENU #2 -->
+                 <!-- widget MENU #3 -->
+                 <div class="col-lg-3 col-sm-6 col-12">
+                  <section class="widget widget_nav_menu">
+                    <!-- header -->
+                    <h2 class="widgettitle">Services</h2>
+                    <!-- - header -->
+                    <!-- content -->
+                    <ul class="menu js-menu">
+                      <li><a href="#">Products</a>
+                      </li>
+                      <li><a href="#">Portraits</a>
+                      </li>
+                   
+                    </ul>
+                    <!-- - content -->
+                  </section>
+                      <!-- - content -->
+                    </section>
                   </div>
-                  <!-- - section FORM -->
+                  <!-- - widget MENU #3 -->
+                  <!-- widget MENU #4 -->
+                  <div class="col-lg-3 col-sm-6 col-12">
+                    <section class="widget widget_nav_menu">
+                      <!-- header -->
+                      <h2 class="widgettitle">Learn More</h2>
+                      <!-- - header -->
+                      <!-- content -->
+                      <ul class="menu js-menu">
+                        <li><a href="page-inner-services-1.html">Services</a>
+                        </li>
+                        <li><a href="page-inner-about-1.html">About</a>
+                        </li>
+                      
+                        <li><a href="page-inner-contacts-1.html">Contacts</a>
+                        </li>
+                      </ul>
+                      <!-- - content -->
+                    </section>
+                  </div>
+                  <!-- - widget MENU #4 -->
                 </div>
               </div>
             </div>
-          </section>
-          <!-- - section CONTACTS 3 COLUMNS -->
-        </main>
-        <!-- PAGE FOOTER -->
-        <!-- - PAGE FOOTER -->
-      </div>
+          </div>
+          <!-- - widgets top area -->
+        
       <!-- - PAGE MAIN -->
     </div>
     <canvas id="js-webgl"></canvas>
