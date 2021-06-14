@@ -189,20 +189,20 @@ if (typeof window.theme === 'undefined') {
 		animations: {
 			triggerHook: 0.85, // more info https://scrollmagic.io/docs/ScrollMagic.Scene.html#triggerHook
 			timeScale: {
-				onScrollReveal: 1, // on-scroll animations global speed
-				overlayMenuOpen: 1, // fullscreen menu open speed
-				overlayMenuClose: 1, // fullscreen menu close speed
+				onScrollReveal: 1.5, // on-scroll animations global speed
+				overlayMenuOpen: 1.5, // fullscreen menu open speed
+				overlayMenuClose: 1.5, // fullscreen menu close speed
 			}
 		},
 		cursorFollower: {
-			enabled: true,
+			enabled: false,
 			labels: {
 				slider: 'Drag'
 			}
 		},
 		smoothScroll: { // more info https://github.com/idiotWu/smooth-scrollbar/tree/develop/docs
 			enabled: true,
-			damping: 0.12,
+			damping: 0.15,
 			renderByPixels: true,
 			continuousScrolling: false,
 			plugins: {
