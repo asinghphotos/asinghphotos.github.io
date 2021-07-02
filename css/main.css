@@ -144,7 +144,7 @@
   --color-gray-1: #888888;
   --color-gray-2: #cccccc;
   /* XL heading */
-  --xl-max-font-size: 150;
+  --xl-max-font-size: 140;
   --xl-min-font-size: 54;
   --xl-line-height: 1.1;
   --xl-color-light: #eeece6;
@@ -162,7 +162,7 @@
   --h2-color-light: #eeece6;
   --h2-color-dark: #333333;
   /* h3 heading */
-  --h3-max-font-size: 42;
+  --h3-max-font-size: 36;
   --h3-min-font-size: 24;
   --h3-line-height: 1.29;
   --h3-color-light: #eeece6;
