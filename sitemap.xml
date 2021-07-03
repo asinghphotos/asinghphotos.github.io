@@ -2,83 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://amansinghphotos.com/</loc>
-    <lastmod>2021-07-02</lastmod>
+    <lastmod>2021-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://amansinghphotos.com/allspace.html</loc>
-    <lastmod>2021-07-02</lastmod>
+    <loc>https://amansinghphotos.com/index.html</loc>
+    <lastmod>2021-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
   </url>
   <url>
-    <loc>https://amansinghphotos.com/allpeople.html</loc>
-    <lastmod>2021-07-02</lastmod>
+    <loc>https://amansinghphotos.com/about.html</loc>
+    <lastmod>2021-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0492.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0630.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0604.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0673.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0707.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Backyard%20Shenanigans/EOS%20R_0215.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Downtown%20Saratoga/EOS%20R-0105.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/assets/Downtown%20Saratoga/EOS%20R-0080.jpg</image:loc>
-        <image:title></image:title>
-      </image:image>
+  </url>
+  <url>
+    <loc>https://amansinghphotos.com/bloglist.html</loc>
+    <lastmod>2021-07-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://amansinghphotos.com/allthings.html</loc>
-    <lastmod>2021-07-02</lastmod>
+    <lastmod>2021-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
       <image:image>
         <image:loc>https://amansinghphotos.com/img/assets/Rancho%20San%20Antonio%20Animals/EOS%20R-0159.jpg</image:loc>
         <image:title></image:title>
@@ -153,18 +103,54 @@
       </image:image>
   </url>
   <url>
-    <loc>https://amansinghphotos.com/allplaces.html</loc>
-    <lastmod>2021-07-02</lastmod>
+    <loc>https://amansinghphotos.com/allpeople.html</loc>
+    <lastmod>2021-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
       <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
+        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0492.jpg</image:loc>
+        <image:title></image:title>
       </image:image>
       <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
+        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0630.jpg</image:loc>
+        <image:title></image:title>
       </image:image>
+      <image:image>
+        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0604.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0673.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://amansinghphotos.com/img/assets/Fathers%20Day/EOS%20R_0707.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://amansinghphotos.com/img/assets/Backyard%20Shenanigans/EOS%20R_0215.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://amansinghphotos.com/img/assets/Downtown%20Saratoga/EOS%20R-0105.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://amansinghphotos.com/img/assets/Downtown%20Saratoga/EOS%20R-0080.jpg</image:loc>
+        <image:title></image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://amansinghphotos.com/allspace.html</loc>
+    <lastmod>2021-07-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://amansinghphotos.com/allplaces.html</loc>
+    <lastmod>2021-07-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://amansinghphotos.com/img/assets/Davenport/EOSR2052.jpg</image:loc>
         <image:title></image:title>
@@ -287,65 +273,15 @@
       </image:image>
   </url>
   <url>
-    <loc>https://amansinghphotos.com/about.html</loc>
-    <lastmod>2021-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://amansinghphotos.com/index.html</loc>
-    <lastmod>2021-07-02</lastmod>
+    <loc>https://amansinghphotos.com/davenportblog.html</loc>
+    <lastmod>2021-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://amansinghphotos.com/services.html</loc>
-    <lastmod>2021-07-02</lastmod>
+    <lastmod>2021-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://amansinghphotos.com/bloglist.html</loc>
-    <lastmod>2021-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-  </url>
-  <url>
-    <loc>https://amansinghphotos.com/davenportblog.html</loc>
-    <lastmod>2021-07-02</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-black.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://amansinghphotos.com/img/general/logo-white.svg</image:loc>
-        <image:title>Rhye HTML5 Template</image:title>
-      </image:image>
   </url>
 </urlset>
